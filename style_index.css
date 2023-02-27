@@ -1,0 +1,146 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    margin: 0;
+    background-image:url("img/fondo_page.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(2, 2, 2, 0.3);
+    color:white;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    transition: 1.5s;
+}
+#titulo_principal{
+    margin: 0;
+}
+
+/* Header scroll hacia arriba */
+header.scroll-up {
+    top: 0;
+}
+  
+  /* Header scroll hacia abajo */
+  header.scroll-down {
+    top: -100px;
+}
+nav{
+    padding-left: 0.9rem;
+    padding-right: 1rem;
+    
+}
+nav ul{
+    list-style: none; /*Eliminamos los puntos de la lista*/
+    margin: 0; /*Eliminamos el margen predeterminado de la lista*/
+    padding: 0;
+}
+nav li{
+    float: right;
+}
+nav a{
+    margin-left: 3rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #fff;
+}
+nav a:hover{
+    color: #e65252;
+}
+header h1{
+    font-size: 3rem;
+}
+div{
+    color: white;
+    max-width: 1000px;
+    padding-left: 3rem;
+}
+.eslogan{
+    margin-top: 8rem;
+    font-size: 3rem;
+}
+.mas_info{
+    text-align: left;
+    margin-top: 20px;
+}
+.mas_info a {
+    display: inline-block;
+    padding: 20px 15px;
+    background-color: #e65252;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+.mas_info a:hover{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    padding-left: 20px;
+
+}
+.colum{
+    padding: 3rem;
+}
+.colum_left{
+    background-image: url(img/columna1.jpg); /* establece la imagen de fondo de la columna izquierda */
+    background-size: cover; /* ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
+    background-position: center; /* ajusta la posición de la imagen de fondo al centro del contenedor */
+    border: 1px solid #FFFFFF; /* agrega un borde derecho a la columna izquierda */
+}
+.colum_right{
+    border: 1px solid #FFFFFF;
+}
+footer{
+    /* position: fixed; */
+    background-color: rgba(2, 2, 2, 0.9);
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+.footer-menu {
+    display: flex;
+}
+  
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.footer-menu li {
+    margin: 0 1rem;
+}
+  
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+footer p {
+    margin: 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    padding: 2rem;
+    
+}
+footer a:hover{
+    color: #e65252;
+}

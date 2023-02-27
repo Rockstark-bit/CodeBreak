@@ -1,0 +1,124 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    margin: 0;
+    background-image:url("img/car.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(2, 2, 2, 1);
+    color:white;
+    width: 100%;
+    z-index: 100;
+}
+#titulo{
+    margin: 0;
+}
+nav{
+    padding-left: 0.9rem auto;
+    padding-right: 1rem;
+    
+}
+nav ul{
+    list-style: none; /*Eliminamos los puntos de la lista*/
+    margin: 0; /*Eliminamos el margen predeterminado de la lista*/
+    padding: 0;
+}
+nav li{
+    float: right;
+}
+nav a{
+    margin-left: 5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #fff;
+}
+nav a:hover{
+    color: cornflowerblue;
+}
+header h1{
+    font-size: 3rem;
+}
+.container{
+    width: 400px;
+    margin:0 auto;
+}
+
+section article{
+    transition: box-sadow 0.4s ease;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.5);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+.post img{
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s ease-in-out all;
+}
+.post img.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+section{
+    padding-top: 3rem;
+}
+
+footer{
+    background-color: #222;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+.footer-menu {
+    display: flex;
+}
+  
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.footer-menu li {
+    margin: 0 1rem;
+}
+  
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+footer p {
+    margin: 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    padding: 2rem;
+    
+}
+footer a:hover{
+    color: cornflowerblue;
+}
