@@ -1,0 +1,138 @@
+/* Estilo del body */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Estilo del header */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+  }
+  
+  /* Estilo del scroll-up */
+  .scroll-up {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  /* Estilo del titulo_principal */
+  #titulo_principal {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  /* Estilo del nav */
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Estilo del main */
+  main {
+    padding-top: 80px;
+  }
+  
+  /* Estilo del eslogan */
+  .eslogan {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Estilo del mas_info */
+  .mas_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .mas_info button {
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .mas_info button:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Estilo del columnas */
+  .columnas {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+  }
+  
+  /* Estilo de las columnas 1 y 2 */
+  .columna_1, .columna_2 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Estilo del container_articles */
+  .container_articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  
+  /* Estilo del article */
+  article {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  article h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }  

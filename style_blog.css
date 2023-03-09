@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0;
-    background-image:url("img/car.jpg") ;
+    background-image:url("img/new.png") ;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -41,7 +41,7 @@ nav a{
     color: #fff;
 }
 nav a:hover{
-    color: cornflowerblue;
+    color: #e65252;
 }
 header h1{
     font-size: 3rem;
@@ -120,5 +120,5 @@ footer a{
     
 }
 footer a:hover{
-    color: cornflowerblue;
+    color: #e65252;
 }

@@ -1,0 +1,153 @@
+/* Estilo base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f15a29;
+}
+
+.eslogan {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.eslogan h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.mas_info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.mas_info button {
+    border: none;
+    background-color: #f15a29;
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mas_info button:hover {
+    background-color: #e3441c;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.columna_1,
+.columna_2 {
+    flex-basis: calc(50% - 2rem);
+}
+
+.container_articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_articles article {
+    flex-basis: calc(50% - 2rem);
+    margin-bottom: 2rem;
+}
+
+.container_articles article h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.container_articles article p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Estilos responsive */
+@media screen and (max-width: 768px) {
+    .eslogan h2 {
+        font-size: 2rem;
+    }
+
+    .mas_info {
+        margin-bottom: 3rem;
+    }
+
+    .mas_info button {
+        font-size: 1rem;
+        padding: 0.8rem 2.5rem;
+    }
+
+    .columna_1,
+    .columna_2 {
+        flex-basis: 100%;
+    }
+
+    .container_articles article {
+        flex-basis: 100%;
+    }
+
+    .container_articles article h3 {
+        font-size: 1.2rem;
+    }
+
+    .container_articles article p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .eslogan h2 {
+        font-size: 1.5rem;
+        margin-top: 2
+}}
